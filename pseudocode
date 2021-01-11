@@ -1,0 +1,15 @@
+We are creating a Temperature Scale Converter 
+The heading is Temperature Scale Converter
+the fahrenheit  is on left side 
+the value button is in the center
+the calculate button is on the right 
+the Celsius is on the bottom 
+below the celsius write 100
+the formula is F(F-9/5)+32
+
+
+Input field to receive a number | reject anything thats not a number
+User clicks button
+Plug user Input formula f(f*9/5)+32
+Return a celsius result
+Display result in celsius on screen 

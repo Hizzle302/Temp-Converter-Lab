@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Scale Converr</title>
+    <link rel="stylesheet" href="converter.css">
+</head>
+<body>
+    <div class= "bodyContainer">
+        
+    <div class= "top">
+    <h1>Temperature Scale Converter</h1>  
+    </div>
+
+    <div class= "flexRow">
+        <div class= "flexCol">
+        <label>Fahrenheit</label>
+    </div>
+
+    <div class= "flexCol">
+        <label class= "inputValue">Value</label>
+        <input id= "input" type= "number">
+    </div>
+
+    <div class= "flexCol">
+        <button id= "inputButton" onclick= "calcCelsius()">Calculate</button>
+    </div>
+
+    <div class= "bottom">
+        <label class= "result">Celsius</label>
+        <label id= "outputCelsius" class= "align"></label>
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>

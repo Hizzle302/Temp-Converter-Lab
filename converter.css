@@ -1,0 +1,29 @@
+* {
+box-sizing: border-box;
+}
+
+.bodyContainer {
+    border: solid black 2px;
+    padding: 15px;
+    margin: auto;
+    text-align: center;
+}
+
+.top {
+    font-style: bold;
+}
+
+.flexRow {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.flexCol {
+    display: flex;
+    flex-direction: colum;
+}
+
+.result {
+    font-style: bold;
+}
