@@ -1,8 +1,11 @@
 // let value = user-Input; 
 // let i = value;
+// (number − 32) × 5/9 = 0°C
 
-function temperatureConverter(valNum) {
-    valNum = parseFloat(valNum);
-    document.getElementById("outputCelsius").innerHTML=(valNum-32)/1.8
-
+function calcCelsius() {
+    var valueToConvert = document.getElementById("inputButton").value;
+    var answer = (valueToConvert - 32) * 5/9;
+     document.getElementById("answer").innerHTML = answer;
 }
+
+
